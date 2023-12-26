@@ -61,7 +61,7 @@ public class PlayerLife : MonoBehaviour
         if (currentHealth > 0)
         {
             StartCoroutine(Invunerability());
-            Debug.Log(currentHealth);
+            //Debug.Log(currentHealth);
         }
         else
         {
